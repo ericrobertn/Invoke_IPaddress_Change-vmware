@@ -15,7 +15,7 @@
 <#
 $MyCredentials=GET-CREDENTIAL
 Add-PsSnapin VMware.VimAutomation.Core -ea "SilentlyContinue"
-Connect-VIServer bofi-vcenter2, sd-mgt-sso-1-1, dr-vcenter2, az-mgt-sso-1-1 -Credential $MyCredentials
+Connect-VIServer -vcenter2, sd-mgt-sso-1-1, dr-vcenter2, az-mgt-sso-1-1 -Credential $MyCredentials
 #>
 
 ##################################
